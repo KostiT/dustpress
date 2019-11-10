@@ -1,0 +1,20 @@
+{
+  "name": "kt/dustpress-theme",
+  "description": "heme for DustPress.",
+  "type": "wordpress-theme",
+  "authors": [
+    {
+        "name": "KT",
+        "email": "kt@yahoo.com"
+    }
+  ],
+  "keywords": [
+    "wordpress", "dustjs", "dustpress", "theme"
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4",
+    "devgeniem/dustpress": "^1.5.14",
+    "composer/installers": "^1.0.12"
+  }
+}

@@ -1,0 +1,26 @@
+{>"shared/header" /}
+
+{#PageEvents}
+
+  <h1>Upcoming Events</h1>
+  {#upcomingEvents}
+
+    <a href="{@permalink id=ID /}">
+      <h4>{post_title}</h4>
+    </a>
+
+
+  {/upcomingEvents}
+
+  <h1>All Events</h1>
+  {#allEvents}
+
+    <a href="{@permalink id=ID /}">
+      <h4>{post_title}</h4>
+    </a>
+
+  {/allEvents}
+
+{/PageEvents}
+
+{>"shared/footer" /}
